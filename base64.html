@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base64</title>
+</head>
+<body>
+<script>
+
+    const original = "Eko&Kurniwan=Khannedy";
+    console.info(original);
+
+    const encoded = btoa(original);
+    console.info(encoded);
+
+    const decoded = atob(encoded);
+    console.info(decoded);
+
+</script>
+</body>
+</html>

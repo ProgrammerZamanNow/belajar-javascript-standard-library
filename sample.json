@@ -1,0 +1,14 @@
+{
+  "firstName": "Eko",
+  "middleName": "Kurniawan",
+  "lastName": "Khannedy",
+  "address": {
+    "country": "Indonesia",
+    "city": "Subang"
+  },
+  "hobbies": [
+    "Coding",
+    "Game",
+    "Traveling"
+  ]
+}

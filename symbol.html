@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Symbol</title>
+</head>
+<body>
+<script>
+
+  {
+    // symbol
+    const firstName = Symbol("firstName");
+    const lastName = Symbol("lastName");
+
+    const person = {};
+    person[firstName] = "Eko";
+    person[lastName] = "Khannedy";
+
+    console.info(person);
+  }
+
+  {
+    // symbol for
+
+    console.info(Symbol.for("firstName") === Symbol.for("firstName"));
+
+    const person = {};
+    person[Symbol.for("firstName")] = "Eko";
+    person[Symbol.for("lastName")] = "Khannedy";
+
+    console.info(person);
+    console.info(person[Symbol.for("firstName")]);
+    console.info(person[Symbol.for("lastName")]);
+  }
+
+</script>
+</body>
+</html>
